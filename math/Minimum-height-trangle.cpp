@@ -6,4 +6,5 @@ int main(){
     cin>>b>>a;
     h=(2*a)/b;
     cout<<fixed<<setprecision(0)<<ceil(h)<<endl;
+ 
 }
