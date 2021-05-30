@@ -1,9 +1,13 @@
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main(){
-    double n,m,p;
+    int n,m;
     cin>>n>>m;
-    p=ceil(n/2.0)*ceil(m/2.0);
-    cout<<p<<endl;
+    int r;
+    r=(n-1)*m+(m-1);
+    cout<<r<<endl;
+    return 0;
 }
